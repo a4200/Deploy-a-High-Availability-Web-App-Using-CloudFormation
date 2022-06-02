@@ -287,7 +287,7 @@ Resources:
                     cd /var/www/html
                     aws s3 cp s3://udacity-demo-1/udacity.zip .
                     unzip -o udacity.zip
-            ImageId: ami-031e556ebe95c007e
+            ImageId: ami-0eb45246cba02871b
             KeyName: UdacityLondonKP
             IamInstanceProfile: !Ref ProfileWithRolesForOurApp
             SecurityGroups:
